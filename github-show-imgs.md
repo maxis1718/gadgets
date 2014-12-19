@@ -6,7 +6,7 @@ javascript:((function(){ var supported_exts = ['png', 'jpg', 'jpeg', 'gif', 'bmp
 
 - Raw code:
 
-  ```
+  ```js
 var supported_exts = ['png', 'jpg', 'jpeg', 'gif', 'bmp'];
 $.each($('table.files').find('tr'), function(i, obj){
     var img_url = $(obj).find('td.content').find('a').attr('href');
